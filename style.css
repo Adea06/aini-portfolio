@@ -154,3 +154,111 @@ body {
    =========================================================== */
 footer {
     text-align: center
+
+   /* ===========================================================
+   MOBILE OPTIMISATION — LUXURY RESPONSIVE DESIGN
+   =========================================================== */
+
+@media (max-width: 900px) {
+
+    /* Navbar spacing */
+    .navbar {
+        padding: 16px 20px;
+    }
+
+    .navbar nav a {
+        margin-left: 12px;
+        font-size: 14px;
+    }
+
+    .mode-btn {
+        font-size: 18px;
+        padding: 6px 10px;
+    }
+
+    /* Hero Section */
+    .hero {
+        height: auto;
+        padding: 120px 20px 60px;
+        text-align: left;
+    }
+
+    .hero h1 {
+        font-size: 34px;
+        line-height: 1.2;
+        margin-bottom: 16px;
+    }
+
+    .hero p {
+        font-size: 16px;
+        line-height: 1.5;
+    }
+
+    .cta-btn {
+        padding: 12px 20px;
+        font-size: 15px;
+    }
+
+    /* About Section */
+    #about {
+        padding: 60px 20px;
+    }
+
+    #about h2 {
+        font-size: 26px;
+    }
+
+    #about p {
+        font-size: 15px;
+        line-height: 1.6;
+    }
+
+    /* Projects Grid */
+    .project-grid {
+        grid-template-columns: 1fr; /* Single column on phones */
+        gap: 20px;
+    }
+
+    .project-tile {
+        height: auto;
+        padding: 20px;
+    }
+
+    .project-tile h3 {
+        font-size: 18px;
+    }
+
+    .project-tile p {
+        font-size: 14px;
+    }
+
+    /* Blog Grid */
+    .blog-grid {
+        grid-template-columns: 1fr;
+        gap: 20px;
+    }
+
+    .blog-card {
+        padding: 20px;
+    }
+
+    .blog-card h3 {
+        font-size: 18px;
+    }
+
+    .blog-card p {
+        font-size: 14px;
+    }
+
+    .blog-btn {
+        font-size: 14px;
+    }
+
+    /* Footer */
+    footer {
+        padding: 30px 15px;
+        font-size: 14px;
+        line-height: 1.6;
+    }
+}
+
