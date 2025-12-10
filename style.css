@@ -1,0 +1,156 @@
+/* ===========================================================
+   GLOBAL LIGHT MODE — SOFT LUXURY NUDE THEME
+   =========================================================== */
+body {
+    margin: 0;
+    font-family: 'Inter', sans-serif;
+    background: #FDFBFA; /* Luxury cream */
+    color: #2A2A2A; /* Soft charcoal */
+}
+
+/* ===========================================================
+   NAVBAR
+   =========================================================== */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 40px;
+    position: fixed;
+    width: 100%;
+    background: rgba(255,255,255,0.8);
+    backdrop-filter: blur(6px);
+    border-bottom: 1px solid #EDE8E4;
+    z-index: 100;
+}
+
+.navbar a {
+    margin-left: 20px;
+    text-decoration: none;
+    color: #2A2A2A;
+    font-weight: 500;
+}
+
+/* DARK MODE BUTTON */
+.mode-btn {
+    margin-left: 20px;
+    padding: 8px 12px;
+    border: none;
+    background: transparent;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+/* ===========================================================
+   HERO SECTION
+   =========================================================== */
+.hero {
+    height: 85vh;
+    display: flex;
+    align-items: center;
+    padding: 0 40px;
+    background: linear-gradient(to bottom right, #ffffff, #F3ECF7);
+}
+
+.hero h1 {
+    font-size: 54px;
+    font-weight: 700;
+    margin: 0;
+    letter-spacing: -0.5px;
+}
+
+.hero p {
+    margin-top: 16px;
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+.cta-btn {
+    margin-top: 28px;
+    display: inline-block;
+    padding: 14px 26px;
+    background: #C79BF2; /* Orchid nude */
+    color: white;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+/* ===========================================================
+   SECTIONS
+   =========================================================== */
+.section {
+    padding: 100px 40px;
+}
+
+.section h2 {
+    font-size: 34px;
+    margin-bottom: 34px;
+    letter-spacing: 0.5px;
+}
+
+/* ===========================================================
+   PROJECT TILES (8 clickable squares)
+   =========================================================== */
+.project-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    gap: 24px;
+}
+
+.project-tile {
+    display: block;
+    background: white;
+    padding: 26px;
+    border-radius: 12px;
+    border: 1px solid #EDE8E4;
+    height: 220px;
+    color: #2A2A2A;
+    text-decoration: none;
+    transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+
+.project-tile:hover {
+    transform: translateY(-6px);
+    box-shadow: 0px 12px 24px rgba(0,0,0,0.06);
+}
+
+.project-tile h3 {
+    margin-top: 0;
+    margin-bottom: 10px;
+    font-size: 20px;
+    color: #A77AD9;
+}
+
+/* ===========================================================
+   BLOG CARDS
+   =========================================================== */
+.blog-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    gap: 24px;
+}
+
+.blog-card {
+    background: white;
+    padding: 26px;
+    border-radius: 12px;
+    border: 1px solid #EDE8E4;
+    transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+
+.blog-card:hover {
+    transform: translateY(-6px);
+    box-shadow: 0px 12px 24px rgba(0,0,0,0.06);
+}
+
+.blog-btn {
+    color: #C79BF2;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+/* ===========================================================
+   FOOTER
+   =========================================================== */
+footer {
+    text-align: center
